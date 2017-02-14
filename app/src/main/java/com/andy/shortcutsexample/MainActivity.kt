@@ -20,14 +20,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun getIntentAction() {
         when(intent.action) {
-            ACTION_NEWEST -> setSelectedText("Newest Shortcut Selected")
-            ACTION_SEARCH -> setSelectedText("Search Shortcut Selected")
-            ACTION_SETTINGS -> setSelectedText("Settings Shortcut Selected")
-            else -> setSelectedText("No Shortcut Selected")
+            ACTION_NEWEST -> setSelectedText("Newest")
+            ACTION_SEARCH -> setSelectedText("Search")
+            ACTION_SETTINGS -> setSelectedText("Settings")
+            else -> setSelectedText("No")
         }
     }
 
     private fun setSelectedText(shortcutText: String) {
-        textShortcutName.text = shortcutText
+        textShortcutName.text = String.format(getString(R.string.shortcut_selected_text), shortcutText)
     }
 }

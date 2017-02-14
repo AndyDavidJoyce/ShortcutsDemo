@@ -11,6 +11,7 @@
             android:targetClass="com.andy.shortcutsexample.MainActivity"
             android:targetPackage="com.andy.shortcutsexample" />
     </shortcut>
+
     <shortcut
         android:enabled="true"
         android:shortcutDisabledMessage="@string/shortcut_search_label"
@@ -22,6 +23,7 @@
             android:targetClass="com.andy.shortcutsexample.MainActivity"
             android:targetPackage="com.andy.shortcutsexample" />
     </shortcut>
+
     <shortcut
         android:enabled="true"
         android:shortcutDisabledMessage="@string/shortcut_settings_label"
@@ -33,4 +35,5 @@
             android:targetClass="com.andy.shortcutsexample.MainActivity"
             android:targetPackage="com.andy.shortcutsexample" />
     </shortcut>
+
 </shortcuts>
