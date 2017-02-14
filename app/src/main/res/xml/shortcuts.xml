@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:shortcutDisabledMessage="@string/shortcut_newest_label"
+        android:shortcutId="newest"
+        android:shortcutLongLabel="@string/shortcut_newest_label"
+        android:shortcutShortLabel="@string/shortcut_newest_label">
+        <intent
+            android:action="com.andy.shortcutsexample.NEWEST"
+            android:targetClass="com.andy.shortcutsexample.MainActivity"
+            android:targetPackage="com.andy.shortcutsexample" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:shortcutDisabledMessage="@string/shortcut_search_label"
+        android:shortcutId="search"
+        android:shortcutLongLabel="@string/shortcut_search_label"
+        android:shortcutShortLabel="@string/shortcut_search_label">
+        <intent
+            android:action="com.andy.shortcutsexample.SEARCH"
+            android:targetClass="com.andy.shortcutsexample.MainActivity"
+            android:targetPackage="com.andy.shortcutsexample" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:shortcutDisabledMessage="@string/shortcut_settings_label"
+        android:shortcutId="settings"
+        android:shortcutLongLabel="@string/shortcut_settings_label"
+        android:shortcutShortLabel="@string/shortcut_settings_label">
+        <intent
+            android:action="com.andy.shortcutsexample.SETTINGS"
+            android:targetClass="com.andy.shortcutsexample.MainActivity"
+            android:targetPackage="com.andy.shortcutsexample" />
+    </shortcut>
+</shortcuts>

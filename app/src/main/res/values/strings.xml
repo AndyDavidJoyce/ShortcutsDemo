@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShortcutsExample</string>
+
+    <string name="shortcut_newest_label">Newest</string>
+    <string name="shortcut_search_label">Search</string>
+    <string name="shortcut_settings_label">Settings</string>
+
+</resources>
